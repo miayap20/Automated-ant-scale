@@ -13,3 +13,5 @@ python THE_STICK_YOLO.py
 
 
 ## Arduino INO files##
+To be uploaded to the arduino controlling the bridge motor:
+OAKDcam.ino
