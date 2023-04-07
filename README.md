@@ -14,9 +14,10 @@ python THE_STICK_YOLO.py
 
 
 ## Arduino INO files##
-To be uploaded to the arduino controlling the bridge motor:\
+To be uploaded to the arduino controlling the bridge motor:
+```
 OAKDcam.ino
-
+```
 
 
 # Ant scale code
@@ -24,9 +25,13 @@ Requires the HX711_ADC library from https://github.com/olkal/HX711_ADC
 Requires the LCD_I2C library from https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
 
 ## Arduino INO files##
-To be uploaded to the arduino controlling the weighing scale,
-for callibration:\
-\nCallibration_wLCDtestcode.ino\
-\nafter calibration, upload:\
-\nRead_LoadCell_wLCDcode.ino\
-\nCoefficients must be adjusted for every calibration value after calibration. Default coefficients assumes a calibration mass of 20g
+To be uploaded to the arduino controlling the weighing scale,\
+for callibration:
+```
+Callibration_wLCDtestcode.ino
+```
+after calibration, upload:
+```
+Read_LoadCell_wLCDcode.ino
+```
+Coefficients must be adjusted for every calibration value after calibration. Default coefficients assumes a calibration mass of 20g
