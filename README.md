@@ -1,6 +1,6 @@
 # Automated-ant-scale
-Code for an automated ant isolating system uses a slightly altered code from https://github.com/FabianPlum/TheStick/
-\nFollow the downlaod instructions in the above linked github readme, then replace "THE_STICK_YOLO.py" and "tracker.py" with the files of the same name in this repositry
+Code for an automated ant isolating system uses a slightly altered code from https://github.com/FabianPlum/TheStick/ \
+Follow the downlaod instructions in the above linked github readme, then replace "THE_STICK_YOLO.py" and "tracker.py" with the files of the same name in this repositry
 
 
 ## Using the automated ant isolation system code ##
@@ -14,7 +14,7 @@ python THE_STICK_YOLO.py
 
 
 ## Arduino INO files##
-To be uploaded to the arduino controlling the bridge motor:
+To be uploaded to the arduino controlling the bridge motor:\
 OAKDcam.ino
 
 
@@ -25,8 +25,8 @@ Requires the LCD_I2C library from https://github.com/fdebrabander/Arduino-Liquid
 
 ## Arduino INO files##
 To be uploaded to the arduino controlling the weighing scale,
-for callibration:
-\nCallibration_wLCDtestcode.ino
-\nafter calibration, upload:
-\nRead_LoadCell_wLCDcode.ino
+for callibration:\
+\nCallibration_wLCDtestcode.ino\
+\nafter calibration, upload:\
+\nRead_LoadCell_wLCDcode.ino\
 \nCoefficients must be adjusted for every calibration value after calibration. Default coefficients assumes a calibration mass of 20g
